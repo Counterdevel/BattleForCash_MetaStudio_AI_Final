@@ -1,0 +1,2 @@
+# BattleForCash_MetaStudio_AI_Final
+Avaliação final de Inteligência Artificial
