@@ -6,7 +6,6 @@ using UnityEngine.AI;
 public class NPCCaixa : MonoBehaviour
 {
     Animator animator;
-    Rigidbody rigibody;
 
     public Transform[] waypoints;   //Array para definir os waypoints
 
@@ -16,7 +15,6 @@ public class NPCCaixa : MonoBehaviour
 
     private void Start()
     {
-        rigibody = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
 
         index = Random.Range(0, 88);   //Deixa o index do array dos waypoints aleatório
